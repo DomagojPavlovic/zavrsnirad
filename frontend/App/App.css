@@ -1,0 +1,134 @@
+html * {
+	color: #ffffff;
+	background-color: #2B3856;
+	font-family: "Trebuchet MS", Times, serif;
+}
+
+
+table {
+	margin: auto;
+	width: 90%;
+	border-collapse: collapse;
+}
+
+table thead th {
+	padding: 8px;
+	background-color: #fde9d9;
+	font-size: large;
+}
+
+th, td {
+	padding: 3px 30px;
+	border-width: 1px;
+	border-style: solid;
+    border-color: #ccc #ccc;
+	border: 2px solid #ccc;
+}
+
+
+table.submit th, table.submit td {
+    padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+    border-color: #ccc #ccc;
+    border: 2px solid #ccc; 
+    border-top: 0px
+}
+
+
+table td {
+	text-align: center;
+}
+
+table tbody th {
+	text-align: center;
+	font-weight: normal;
+}
+
+table tfoot {
+	font-weight: bold;
+	font-size: large;
+	background-color: #687886;
+	color: #fff;
+}
+
+table tr.even {
+	background-color: #fde9d9;
+}
+
+h1, h2, h3, h4, h5, h6, p, div {
+    text-align: center;
+}
+
+.vertical-menu {
+	text-align: left;
+	background-color: rgb(25, 35, 56);
+  }
+  
+  .vertical-menu h3 {
+	background-color: rgb(25, 35, 56);
+	display: block; 
+	padding: 12px; 
+	text-decoration: none; 
+  }
+
+  .vertical-menu a {
+	background-color: rgb(25, 35, 56);
+	display: block; 
+	padding: 12px; 
+	text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+	background-color: #2B3856; 
+  }
+  
+  .vertical-menu a.active {
+	background-color: #4CAF50; 
+	color: #000000;
+  }
+
+  .split {
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	/*top: 20%;*/
+	overflow-x: hidden;
+	/*padding-top: 20px;*/
+  }
+  
+  .left {
+	width: 15%;
+	left: 0;
+	background-color: rgb(25, 35, 56);
+  }
+  
+  .right {
+	width: 85%;
+	right: 0;
+  }
+
+button, select{
+	background-color: #3BB9FF;
+	border: 2px solid #2B65EC;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+button:hover, select:hover{
+	background-color: #1F45FC;
+	color: white;
+}
+
+input {
+	width: 100%;
+	padding: 5px 16px;
+	margin: 4px 0;
+	box-sizing: border-box;
+  }
